@@ -1,0 +1,161 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=76F5U-SV6QF-TGM7T-RWH9X-FY8S2-C7VLK
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  E:\KEILE 5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      CMSIS_AGDI.dll V1.28.3.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+c:\Users\cymr9000p\Desktop\cymlsylcd\climb-car\MDK-ARM\climb_car.uvprojx
+Project File Date:  05/03/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'E:\KEILE 5\ARM\ARMCC\Bin'
+Rebuild target 'climb_car'
+assembling startup_stm32f407xx.s...
+compiling stm32f4xx_ll_adc.c...
+compiling dma.c...
+compiling adc.c...
+compiling stm32f4xx_hal_adc.c...
+compiling tim.c...
+compiling gpio.c...
+compiling stm32f4xx_hal.c...
+compiling main.c...
+../Core/Src/main.c(361): error:  #65: expected a ";"
+  {
+../Core/Src/main.c(383): warning:  #12-D: parsing restarts here after previous syntax error
+      Error_Handler();
+../Core/Src/main.c(388): error:  #77-D: this declaration has no storage class or type specifier
+    RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
+../Core/Src/main.c(388): error:  #65: expected a ";"
+    RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
+../Core/Src/main.c(390): error:  #77-D: this declaration has no storage class or type specifier
+    RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+../Core/Src/main.c(390): error:  #65: expected a ";"
+    RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+../Core/Src/main.c(391): error:  #77-D: this declaration has no storage class or type specifier
+    RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+../Core/Src/main.c(391): error:  #65: expected a ";"
+    RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+../Core/Src/main.c(392): error:  #77-D: this declaration has no storage class or type specifier
+    RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
+../Core/Src/main.c(392): error:  #65: expected a ";"
+    RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
+../Core/Src/main.c(393): error:  #77-D: this declaration has no storage class or type specifier
+    RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV2;
+../Core/Src/main.c(393): error:  #65: expected a ";"
+    RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV2;
+../Core/Src/main.c(395): error:  #169: expected a declaration
+    if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_5) != HAL_OK)
+../Core/Src/main.c(424): warning:  #12-D: parsing restarts here after previous syntax error
+      static const int table_23[] = {74, 69, 64, 58, 54, 51, 47, 45, 41, 39, 37};
+../Core/Src/main.c(441): error:  #28: expression must have a constant value
+      int idx = s - 10;
+../Core/Src/main.c(442): error:  #77-D: this declaration has no storage class or type specifier
+      idx = (idx < 0) ? 0 : ((idx > 10) ? 10 : idx);
+../Core/Src/main.c(442): error:  #148: variable "idx"  has already been initialized
+      idx = (idx < 0) ? 0 : ((idx > 10) ? 10 : idx);
+../Core/Src/main.c(442): error:  #28: expression must have a constant value
+      idx = (idx < 0) ? 0 : ((idx > 10) ? 10 : idx);
+../Core/Src/main.c(442): error:  #28: expression must have a constant value
+      idx = (idx < 0) ? 0 : ((idx > 10) ? 10 : idx);
+../Core/Src/main.c(442): error:  #28: expression must have a constant value
+      idx = (idx < 0) ? 0 : ((idx > 10) ? 10 : idx);
+../Core/Src/main.c(445): error:  #169: expected a declaration
+      switch(slope) {
+../Core/Src/main.c(466): warning:  #12-D: parsing restarts here after previous syntax error
+          case 24: targetspeed = table_24[idx]; break;
+../Core/Src/main.c(466): error:  #169: expected a declaration
+          case 24: targetspeed = table_24[idx]; break;
+../Core/Src/main.c(467): error:  #169: expected a declaration
+          case 25: targetspeed = table_25[idx]; break;
+../Core/Src/main.c(467): error:  #169: expected a declaration
+          case 25: targetspeed = table_25[idx]; break;
+../Core/Src/main.c(468): error:  #169: expected a declaration
+          case 26: targetspeed = table_26[idx]; break;
+../Core/Src/main.c(468): error:  #169: expected a declaration
+          case 26: targetspeed = table_26[idx]; break;
+../Core/Src/main.c(469): error:  #169: expected a declaration
+          case 27: targetspeed = table_27[idx]; break;
+../Core/Src/main.c(469): error:  #169: expected a declaration
+          case 27: targetspeed = table_27[idx]; break;
+../Core/Src/main.c(470): error:  #169: expected a declaration
+          case 28: targetspeed = table_28[idx]; break;
+../Core/Src/main.c(470): error:  #169: expected a declaration
+          case 28: targetspeed = table_28[idx]; break;
+../Core/Src/main.c(471): error:  #169: expected a declaration
+          case 29: targetspeed = table_29[idx]; break;
+../Core/Src/main.c(471): error:  #169: expected a declaration
+          case 29: targetspeed = table_29[idx]; break;
+../Core/Src/main.c: 3 warnings, 30 errors
+compiling stm32f4xx_it.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_i2c_ex.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_uart.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_flash.c...
+compiling i2c.c...
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_hal_msp.c...
+compiling stm32f4xx_hal_flash_ramfunc.c...
+compiling track.c...
+compiling stm32f4xx_hal_adc_ex.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal_exti.c...
+compiling motor.c...
+compiling stm32f4xx_hal_tim_ex.c...
+compiling stm32f4xx_hal_dma.c...
+compiling usart.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal_i2c.c...
+compiling stm32f4xx_hal_tim.c...
+compiling rocker.c...
+compiling uprint.c...
+compiling oled.c...
+"climb_car\climb_car.axf" - 30 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil.STM32F4xx_DFP.2.17.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_climb_car
+  E:\KEILE 5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  E:\KEILE 5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Target not created.
+Build Time Elapsed:  00:00:08
+</pre>
+</body>
+</html>
