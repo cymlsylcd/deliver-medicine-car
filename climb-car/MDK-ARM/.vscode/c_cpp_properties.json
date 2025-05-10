@@ -3,17 +3,17 @@
         {
             "name": "climb_car",
             "includePath": [
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\climb-car\\Core\\Inc",
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\climb-car\\Drivers\\STM32F4xx_HAL_Driver\\Inc",
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\climb-car\\Drivers\\STM32F4xx_HAL_Driver\\Inc\\Legacy",
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\climb-car\\Drivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include",
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\climb-car\\Drivers\\CMSIS\\Include",
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\climb-car\\hardware",
+                "c:\\Users\\cymr9000p\\Desktop\\climb_car - 副本\\Core\\Inc",
+                "c:\\Users\\cymr9000p\\Desktop\\climb_car - 副本\\Drivers\\STM32F4xx_HAL_Driver\\Inc",
+                "c:\\Users\\cymr9000p\\Desktop\\climb_car - 副本\\Drivers\\STM32F4xx_HAL_Driver\\Inc\\Legacy",
+                "c:\\Users\\cymr9000p\\Desktop\\climb_car - 副本\\Drivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include",
+                "c:\\Users\\cymr9000p\\Desktop\\climb_car - 副本\\Drivers\\CMSIS\\Include",
+                "c:\\Users\\cymr9000p\\Desktop\\climb_car - 副本\\hardware",
                 "E:\\KEILE 5\\ARM\\ARMCC\\include",
                 "E:\\KEILE 5\\ARM\\ARMCC\\include\\rw",
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\climb-car\\MDK-ARM",
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\climb-car\\Core\\Src",
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\climb-car\\Drivers\\STM32F4xx_HAL_Driver\\Src"
+                "c:\\Users\\cymr9000p\\Desktop\\climb_car - 副本\\MDK-ARM",
+                "c:\\Users\\cymr9000p\\Desktop\\climb_car - 副本\\Core\\Src",
+                "c:\\Users\\cymr9000p\\Desktop\\climb_car - 副本\\Drivers\\STM32F4xx_HAL_Driver\\Src"
             ],
             "defines": [
                 "USE_HAL_DRIVER",
