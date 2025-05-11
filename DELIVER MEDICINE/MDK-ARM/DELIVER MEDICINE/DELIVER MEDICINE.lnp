@@ -1,4 +1,4 @@
---cpu=Cortex-M4.fp
+--cpu=Cortex-M4.fp.sp
 "deliver medicine\startup_stm32f407xx.o"
 "deliver medicine\main.o"
 "deliver medicine\gpio.o"

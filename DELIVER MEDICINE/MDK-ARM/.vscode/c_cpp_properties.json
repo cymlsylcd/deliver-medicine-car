@@ -3,17 +3,19 @@
         {
             "name": "DELIVER MEDICINE",
             "includePath": [
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\DELIVER MEDICINE\\Core\\Inc",
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\DELIVER MEDICINE\\Drivers\\STM32F4xx_HAL_Driver\\Inc",
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\DELIVER MEDICINE\\Drivers\\STM32F4xx_HAL_Driver\\Inc\\Legacy",
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\DELIVER MEDICINE\\Drivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include",
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\DELIVER MEDICINE\\Drivers\\CMSIS\\Include",
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\DELIVER MEDICINE\\hardware",
-                "E:\\KEILE 5\\ARM\\ARMCC\\include",
-                "E:\\KEILE 5\\ARM\\ARMCC\\include\\rw",
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\DELIVER MEDICINE\\MDK-ARM",
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\DELIVER MEDICINE\\Core\\Src",
-                "c:\\Users\\cymr9000p\\Desktop\\cymlsylcd\\DELIVER MEDICINE\\Drivers\\STM32F4xx_HAL_Driver\\Src"
+                "c:\\Users\\lsy\\Desktop\\cymlsylcd\\deliver-medicine-car-1\\DELIVER MEDICINE\\Core\\Inc",
+                "c:\\Users\\lsy\\Desktop\\cymlsylcd\\deliver-medicine-car-1\\DELIVER MEDICINE\\Drivers\\STM32F4xx_HAL_Driver\\Inc",
+                "c:\\Users\\lsy\\Desktop\\cymlsylcd\\deliver-medicine-car-1\\DELIVER MEDICINE\\Drivers\\STM32F4xx_HAL_Driver\\Inc\\Legacy",
+                "c:\\Users\\lsy\\Desktop\\cymlsylcd\\deliver-medicine-car-1\\DELIVER MEDICINE\\Drivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include",
+                "c:\\Users\\lsy\\Desktop\\cymlsylcd\\deliver-medicine-car-1\\DELIVER MEDICINE\\Drivers\\CMSIS\\Include",
+                "c:\\Users\\lsy\\Desktop\\cymlsylcd\\deliver-medicine-car-1\\DELIVER MEDICINE\\hardware",
+                "D:\\keil5\\Keil5 MDK\\ARM\\ARMCC\\include",
+                "D:\\keil5\\Keil5 MDK\\ARM\\ARMCC\\include\\arm_linux",
+                "D:\\keil5\\Keil5 MDK\\ARM\\ARMCC\\include\\arm_linux_compat",
+                "D:\\keil5\\Keil5 MDK\\ARM\\ARMCC\\include\\rw",
+                "c:\\Users\\lsy\\Desktop\\cymlsylcd\\deliver-medicine-car-1\\DELIVER MEDICINE\\MDK-ARM",
+                "c:\\Users\\lsy\\Desktop\\cymlsylcd\\deliver-medicine-car-1\\DELIVER MEDICINE\\Core\\Src",
+                "c:\\Users\\lsy\\Desktop\\cymlsylcd\\deliver-medicine-car-1\\DELIVER MEDICINE\\Drivers\\STM32F4xx_HAL_Driver\\Src"
             ],
             "defines": [
                 "USE_HAL_DRIVER",

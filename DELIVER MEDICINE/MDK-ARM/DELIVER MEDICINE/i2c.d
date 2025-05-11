@@ -8,7 +8,7 @@ deliver medicine\i2c.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 deliver medicine\i2c.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 deliver medicine\i2c.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 deliver medicine\i2c.o: ../Drivers/CMSIS/Include/core_cm4.h
-deliver medicine\i2c.o: E:\KEILE 5\ARM\ARMCC\Bin\..\include\stdint.h
+deliver medicine\i2c.o: D:\keil5\Keil5 MDK\ARM\ARMCC\Bin\..\include\stdint.h
 deliver medicine\i2c.o: ../Drivers/CMSIS/Include/cmsis_version.h
 deliver medicine\i2c.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 deliver medicine\i2c.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -16,7 +16,7 @@ deliver medicine\i2c.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 deliver medicine\i2c.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
 deliver medicine\i2c.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 deliver medicine\i2c.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-deliver medicine\i2c.o: E:\KEILE 5\ARM\ARMCC\Bin\..\include\stddef.h
+deliver medicine\i2c.o: D:\keil5\Keil5 MDK\ARM\ARMCC\Bin\..\include\stddef.h
 deliver medicine\i2c.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
 deliver medicine\i2c.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
 deliver medicine\i2c.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h

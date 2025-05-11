@@ -1,2 +1,4 @@
 Load "DELIVER MEDICINE\\DELIVER MEDICINE.axf" 
-Erase Done.Programming Done.Verify OK.Flash Load finished at 18:59:41
+No ST-LINK detected
+Error: Flash Download failed  -  Target DLL has been cancelled
+Flash Load finished at 15:10:16
